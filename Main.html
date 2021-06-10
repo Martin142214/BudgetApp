@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>       
+        <h1> Budget app </h1>
+
+<div class="container">
+            <div class="budget_numbers">
+                <div id="earned" class="number">
+                    <small>Salary</small>
+                    <div class="amount_container">
+                        <p id="earned_symbol"></p>
+                        <span id="amount_earned"></span>
+                    </div>
+                </div>
+                <div id="available" class="number">
+                    <small>Money Available</small>
+                    <div class="amount_container">
+                        <p></p>
+                        <span id="amount_available"></span>
+                    </div>
+                </div>
+                <div id="spent" class="number">
+                    <small>Money Spent</small>
+                    <div class="amount_containerMoney">
+                        <p id="spent_symbol"></p>
+                        <span id="amount_spent"></span>
+                    </div>
+                </div>
+            </div>
+
+    <div class="inputArea">         
+        <div class="salary">
+            <label for="salary">Salary</label>
+            <input type="number" id="salaryInput">
+        </div>
+    
+        <div class="credit">
+            <label for="CreditTitle">billsTitle</label>
+            <input type="text" id="creditTitle">
+        </div>
+
+        <div class="inputFields">
+            <label for="investment">bills</label>
+            <input type="number" id="investInput">
+        </div>
+        <div class="buttonsArea">
+            <button type="button" class="addSalary">AddSalary</button>
+            <button type="button" class="addBill">AddBill</button>
+            <button type="button" class="calculate">Calculate</button>
+        </div>
+        <h4 id="errorMsg"></h4>
+        <main class="itemsContainer">
+            <ul class="container"></ul> 
+        </main>
+    </div> 
+</div>       
+        <h3 id="finalMsg"></h3>
+        <script src="./Main.js"></script>
+</body>
+</html>

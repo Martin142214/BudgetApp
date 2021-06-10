@@ -1,0 +1,165 @@
+body{
+    background-color: lightskyblue;
+    font-family: 'Times New Roman', sans-serif;
+    color: #2f3e46;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.budget_numbers{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 700px;
+    margin: 1rem 0 3rem;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.amount_container{
+    display: flex;
+}
+
+.inputArea input{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+}
+
+.inputArea input::-webkit-outer-spin-button,
+.inputArea input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.buttonsArea{
+    margin: 10px 0 3rem;
+}
+
+.buttonsArea .addSalary,
+.buttonsArea .addBill,
+.buttonsArea .calculate{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.addSalary{
+    background-color: greenyellow;
+    color: black;
+}
+.addBill{
+    background-color: red;
+    color: white;
+}
+.calculate{
+    background-color: black;
+    color: white;
+}
+
+.itemsContainer{
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    max-width: 700px;
+}
+
+.itemsContainer div{
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+li:last-child {
+    border: none;
+}
+
+li aside {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+aside button{
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: coral;
+    outline: none;
+    cursor: pointer;
+}
+
+#finalMsg{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/*.itemsContainer .container{
+    width: 60%;
+    border-radius: 15px;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container #bill{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px 5px 30px;
+    position: relative;
+}
+
+label{
+    font-weight: 600;
+    font-size: large;
+}
+
+
+
+aside{
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+
+}*/
+
+
+
+
